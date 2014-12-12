@@ -3,32 +3,32 @@ auto-haproxy
 
 Automatically detects hosts in the area aws and add it to haproxy.cfg
 
-Marcelo Santiago < marcelo.santiago /\*NOSPAM\*/ youlinked /(\.)/ com >
-Wesley Leite    < wesleyhenrique /\*NOSPAM\*/ gmail /(\.)/ com>
+	 Marcelo Santiago < marcelo.santiago /\*NOSPAM\*/ youlinked /(\.)/ com >
+	 Wesley Leite    < wesleyhenrique /\*NOSPAM\*/ gmail /(\.)/ com>
 
-##CLONE
+#CLONE
 
 	$ cd /opt
-	
+	$ git clone https://github.com/wesleyleite/auto-haproxy.git
 
-##INSTALL
+#INSTALL
 	_Edit file hacfg-sr.cfg with information of struct and webserver_
 
     $ sudo ./auto-haproxy.bash -i
 
-##HELP
+#HELP
 	
     $ ./auto-haproxy.bash -h
 
-##CRONTAB
+#CRONTAB
 
     */2 * * * *  /opt/auto-haproxy/auto-haproxy.bash -r
 
-##LOG
+#LOG
 
 	$ sudo tail -f /var/log/syslog | grep auto-haproxy
 	
-  OR
+  	OR
 
-  $ sudo tail -f /var/log/messages grep auto-haproxy
+  	$ sudo tail -f /var/log/messages grep auto-haproxy
 
