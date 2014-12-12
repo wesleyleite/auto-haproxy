@@ -30,5 +30,5 @@ Automatically detects hosts in the area aws and add it to haproxy.cfg
 	
   	OR
 
-  	$ sudo tail -f /var/log/messages grep auto-haproxy
+  	$ sudo tail -f /var/log/messages | grep auto-haproxy
 
