@@ -1,7 +1,7 @@
 auto-haproxy
 ============
 
-Automatically detects hosts in the area aws and add it to haproxy.cfg
+Automatically detects hosts in the area AWS (Amanzon Web Service) and add it to haproxy.cfg
 
 	 Marcelo Santiago < marcelo.santiago /\*NOSPAM\*/ youlinked /(\.)/ com >
 	 Wesley Leite    < wesleyhenrique /\*NOSPAM\*/ gmail /(\.)/ com>
